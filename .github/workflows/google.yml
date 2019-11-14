@@ -72,3 +72,4 @@ jobs:
         ./kustomize build . | kubectl apply -f -
         kubectl rollout status deployment/gke-test
         kubectl get services -o wide
+#CUDMFGM#
